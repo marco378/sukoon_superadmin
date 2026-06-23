@@ -18,14 +18,7 @@ export default function Layout({ children, onLogout }) {
     <div className="flex h-screen overflow-hidden">
       <aside className="w-56 flex flex-col bg-sidebar border-r border-sidebar-border shrink-0">
         <div className="h-14 flex items-center gap-2.5 px-4 border-b border-sidebar-border">
-          <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 4c-4 0-7 2-9 5-1.5 2.5-1 5.5 1 7.5l8 8c2 2 2.5 5 1 7.5s-5 5-9 5" stroke="#6B21A8" strokeWidth="5" strokeLinecap="round" />
-            <path d="M20 36c4 0 7-2 9-5 1.5-2.5 1-5.5-1-7.5l-8-8c-2-2-2.5-5-1-7.5s5-5 9-5" stroke="#EA580C" strokeWidth="5" strokeLinecap="round" />
-          </svg>
-          <div className="leading-none">
-            <span className="text-[13px] font-bold text-purple-800 tracking-tight uppercase">Sukoon</span>
-            <span className="block text-[10px] font-semibold text-orange-600 tracking-wider">INSURANCE</span>
-          </div>
+          <img src="/logo.png" alt="Sukoon Insurance" className="h-10 w-auto max-w-[160px] object-contain" />
         </div>
 
         <div className="px-3 pt-3 pb-1">

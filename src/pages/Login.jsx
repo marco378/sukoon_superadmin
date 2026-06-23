@@ -14,15 +14,8 @@ export default function Login({ onLogin }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="w-full max-w-sm space-y-6">
-        <div className="text-center space-y-1">
-          <svg width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mx-auto">
-            <path d="M20 4c-4 0-7 2-9 5-1.5 2.5-1 5.5 1 7.5l8 8c2 2 2.5 5 1 7.5s-5 5-9 5" stroke="#6B21A8" strokeWidth="5" strokeLinecap="round" />
-            <path d="M20 36c4 0 7-2 9-5 1.5-2.5 1-5.5-1-7.5l-8-8c-2-2-2.5-5-1-7.5s5-5 9-5" stroke="#EA580C" strokeWidth="5" strokeLinecap="round" />
-          </svg>
-          <div>
-            <span className="text-[15px] font-bold text-purple-800 tracking-tight uppercase">Sukoon</span>
-            <span className="block text-[10px] font-semibold text-orange-600 tracking-wider">INSURANCE</span>
-          </div>
+        <div className="text-center space-y-2">
+          <img src="/logo.png" alt="Sukoon Insurance" className="h-14 w-auto mx-auto object-contain" />
           <p className="text-[13px] text-muted-foreground">Sign in to Super Admin</p>
         </div>
 
